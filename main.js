@@ -1,14 +1,17 @@
 
 var email = ['giacomo.1936@gmail.com', 'giacomo.ur88@gmail.com', 'giacomo.ur1936@gmail.com'];
 
-var email_trovata = false;
+var elementArray = prompt ("qual è la tua mail")
 
 for (var i = 0; i < email.length; i++) {
-    console.log(email[i]);
 
-    var elementArray = email[i];
+    var email = email[i]
 
-    if (ele) {
-
+    if (elementArray == email) {
+        console.log("email corretta");
     }
+}
+
+if (elementArray != email) {
+    console.log("email non corretta");
 }
